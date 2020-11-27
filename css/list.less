@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color:#eeeeee ;
+
+}
+// 头部部分
+header{
+    width: 32rem;
+    height: 4rem;
+    background-color: #ff8a00;
+    img:first-of-type{
+        width: 9.8rem;
+        height: 2.9rem;
+        margin-left: 3.4rem;
+        margin-top: .5rem;
+    }
+    img:nth-of-type(2){
+        width: 2.2rem;
+        height: 2.9rem;
+        margin-left: 8.9rem;
+    }
+    img:nth-of-type(3){
+        width: 2.3rem;
+        height: 2.9rem;
+        margin-left: 2.1rem;
+    }
+}
+//搜索部分
+.search{
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 1rem;
+    
+    input{
+        float: left;
+        width: 19.8rem;
+        height: 4rem;
+        border: 1px solid #eeeeee;
+        border-right: none;
+        padding-left: 1rem;
+        color: #757575;
+    }
+    span{
+        float: left;
+        display: block;
+        width: 5rem;
+        height: 4rem;
+        line-height: 4rem;
+        padding-right: 3rem;
+        background:url(../image/SecondHandList/search_03.png) white  no-repeat 4rem 1rem ;
+        background-size:1.8rem 1.8rem ;
+    }
+}
+// 导航部分
+nav{
+    position: relative;
+    ul{
+        border: 1px solid #cccccc;
+        height: 4rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #666666;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        li{
+            position: relative;
+            height: 4rem;
+            line-height: 4rem;
+            .tringle{
+                //小三角
+                position: absolute;
+                top: 2rem;
+                left:4rem;
+                display: inline-block;
+                border-width:.6rem ;
+                border-color: #cccccc transparent transparent transparent;
+                border-style: solid;
+            }
+
+        }
+    }
+    .now{
+        width: 28rem;
+        padding: 2rem 0rem;
+        margin-left: 2rem;
+        display: flex;
+        border-bottom: 1px solid #ff8a00;
+        img{
+            width: 7rem;
+            height: 7rem;
+        }
+        .setup{
+            padding-left: .7rem;
+            font-size: 1.2rem;
+            
+            p:first-of-type{
+                font-weight: bold;
+            }
+            p:nth-of-type(2){
+                padding-top: .8rem;
+            }
+            p:nth-of-type(3),p:nth-of-type(4){
+                padding-top: .5rem;
+                color: #b0b0b0;
+               span{
+                   color: #ff8a00;
+               }
+            }
+        }
+    }
+    .now:last-of-type{
+        border-bottom:none;
+    }
+}
+// 隐藏部分
+.area2{
+    position: absolute;
+    top: 14rem;
+    left: 0rem;
+    border: 1px solid #cccccc;
+    .uls{
+        overflow: hidden;
+        .u2{
+            float: left;
+            font-size: 1.8rem;
+            font-weight: bold;
+            width: 9rem;
+            text-align: center;
+            li:first-of-type{
+                height: 4rem;
+                line-height: 4rem;
+                color: #ff8a00 ;
+                background-color: white;
+            }
+            li:nth-of-type(2){
+                padding-top: 1rem;
+                background-color: #f0f0f0;
+                border-right: 1px solid #cccccc;
+                height: 27rem;
+            }
+        }
+        .u3{
+            width: 22.8rem;
+            height: 32rem;
+            float: left;
+            font-size: 1.2rem;
+            background-color: white;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap:wrap ;
+            li{
+                text-align: center;
+                width: 50%;
+                height: 4rem;
+                line-height: 4rem;
+            }
+        }
+    }
+}
+.price2{
+    position: absolute;
+    top: 14rem;
+    left: 0rem;
+    font-size: 1.2rem;
+    background-color: white;
+    ul{
+        border-right: 1px solid #cccccc;
+        li{
+            padding-left: 2rem;
+            width:29.9rem;
+            height: 4rem;
+            line-height: 4rem;
+
+            border-bottom: 1px solid #cccccc;
+        }
+    }
+}
+.house2{
+    position: absolute;
+    top: 14rem;
+    left: 0rem;
+    height: 30rem;
+    font-size: 1.2rem;
+    background-color: white;
+    ul{
+        border-right: 1px solid #cccccc;
+        li{
+            margin-left: 2rem;
+            width: 29.9rem;
+            height: 4rem;
+            line-height: 4rem;
+            border-bottom: 1px solid #cccccc;
+            input{
+                
+                margin-left: 22.5rem;
+            }
+        }
+    }
+    button{
+        margin-left: 2rem;
+        width: 28rem;
+        height: 4rem;
+        background-color: #ff8a00;
+        border: none;
+    }
+}
+.more2{
+    position: absolute;
+    top: 14rem;
+    left: 0rem;
+    width: 100%;
+    ul {
+        padding: 0 2rem;
+        background-color: white;
+        li {
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #cccccc;
+            p {
+                font-weight: bold;
+                // margin-top: 2rem;
+            }
+            ul {
+                overflow: hidden;
+                li {
+                    float: left;
+                    text-align: center;
+                    box-sizing: border-box;
+                    margin-top: 1.2rem;
+                    width: 6.5rem;
+                    height: 2.5rem;
+                    margin-right: 0.5rem;
+                    line-height: 2.5rem;
+                    border: 1px solid #cccccc;
+                }
+            }
+        }
+    }
+}
+// 底部部分
+footer{
+    width: 32rem;
+    height: 20.8rem;
+    color: #939494;
+    background-color: #2f3130;
+    .beijing{
+        font-size: 1.2rem;
+        height: 4rem;
+        line-height: 4rem;
+        border-bottom: 1px solid #3e403f;
+        padding-left: 1.5rem;
+    }
+    ul{
+        overflow: hidden;
+        .apple{
+            width: 7.25rem;
+            margin-top: 1.5rem;
+            float: left;
+            margin-left: 2.7rem;
+            display: flex;
+            justify-content: space-evenly;
+            img{
+                width: 1.8rem;
+                height: 1.8rem;
+            }
+            div{
+                margin-left: 1.8rem;
+            }   
+        }
+        .apple:nth-of-type(2){
+            // margin-left: 1rem;
+            float: left;
+            margin-left: 6rem;
+        }
+    }
+    .gs{
+        margin-top: 2.2rem;
+        text-align:center ;
+    }
+    .wl{
+        margin-top: .8rem;
+        text-align:center ;
+    }
+}

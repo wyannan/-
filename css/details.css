@@ -1,0 +1,364 @@
+* {
+  padding: 0;
+  margin: 0%;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+header {
+  width: 100%;
+  height: 4rem;
+  background-color: #ff8a00;
+}
+header img:first-of-type {
+  width: 9.8rem;
+  height: 2.9rem;
+  margin-left: 3.4rem;
+  margin-top: 0.5rem;
+}
+header img:nth-of-type(2) {
+  width: 2.2rem;
+  height: 2.9rem;
+  margin-left: 8.9rem;
+}
+header img:nth-of-type(3) {
+  width: 2.3rem;
+  height: 2.9rem;
+  margin-left: 2.1rem;
+}
+.auto {
+  background-color: white;
+}
+.auto img {
+  width: 100%;
+}
+.auto .swan {
+  width: 28rem;
+  padding-left: 2rem ;
+  padding-top: 2.4rem;
+}
+.auto .swan .swan1 {
+  width: 25rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.auto .swan .price {
+  padding-top: 1.7rem;
+  font-size: 1.4rem;
+  overflow: hidden;
+}
+.auto .swan .price span {
+  float: left;
+  color: #db4c3f;
+}
+.auto .swan .price img {
+  float: right;
+  width: 1.3rem;
+  height: 1.9rem;
+}
+.auto .swan .time {
+  padding-top: 1.7rem;
+  font-size: 1.2rem;
+}
+.auto .swan .discounts {
+  padding-top: 1.7rem;
+  padding-bottom: 2rem;
+}
+.auto .swan .discounts .s {
+  margin-right: 1.2rem;
+  color: #849abd;
+  background-color: #dee9f0;
+}
+.auto .swan .discounts .d {
+  margin-right: 1.2rem;
+  color: #849abd;
+  background-color: #dee9f0;
+}
+.auto .swan .discounts .m {
+  color: #849abd;
+  background-color: #dee9f0;
+}
+.detail {
+  margin-top: 1rem;
+  background-color: white;
+}
+.detail ul {
+  width: 30rem;
+}
+.detail ul li {
+  display: flex;
+  margin-left: 2rem;
+  height: 5rem;
+  line-height: 5rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.detail ul li P:nth-of-type(1) {
+  width: 12.9rem;
+}
+.detail .more {
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+  color: #999999;
+}
+.special {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: white;
+}
+.special .f {
+  width: 28rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  color: #ff9326;
+  border-bottom: 1px solid #eeeeee;
+}
+.special .x {
+  font-size: 1.2rem;
+  height: 12rem;
+  line-height: 2.2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 28rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.special .g {
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+  color: #999999;
+}
+.room {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: white;
+}
+.room .f {
+  width: 28rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  color: #ff9326;
+  border-bottom: 1px solid #eeeeee;
+}
+.room .now {
+  width: 28rem;
+  padding: 2rem 0rem;
+  margin-left: 2rem;
+  display: flex;
+  border-bottom: 1px solid #ff8a00;
+}
+.room .now img {
+  width: 7rem;
+  height: 7rem;
+}
+.room .now .setup {
+  padding-left: 0.7rem;
+  font-size: 1.2rem;
+}
+.room .now .setup p:first-of-type {
+  font-weight: bold;
+}
+.room .now .setup p:nth-of-type(2) {
+  padding-top: 1.4rem;
+}
+.room .now .setup p:nth-of-type(3) {
+  padding-top: 1rem;
+}
+.room .now .setup p:nth-of-type(3) span {
+  margin-right: 0.6rem;
+  width: 5.8rem;
+  color: #849aae;
+  height: 2.5rem;
+  background-color: #f4f7f9;
+}
+.school {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: white;
+}
+.school .f {
+  width: 28rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-bottom: 1px solid #eeeeee;
+}
+.school ul li {
+  display: flex;
+  margin-left: 2rem;
+  height: 5rem;
+  line-height: 5rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.school .g {
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+  color: #999999;
+}
+.position {
+  width: 100%;
+  height: 25.5rem;
+  margin-top: 1.2rem;
+  background-color: white;
+}
+.position .f {
+  width: 28rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-bottom: 1px solid #eeeeee;
+}
+.position #container {
+  margin-top: 2rem ;
+  margin-left: 2rem;
+  width: 28rem;
+  height: 16rem;
+}
+.room1 {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: white;
+}
+.room1 .f {
+  width: 28rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.room1 .house {
+  height: 18rem;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.room1 .house .bottom {
+  display: flex;
+}
+.room1 .house .bottom .left img {
+  padding: 3rem 1.2rem 2.2rem;
+  width: 8rem;
+  height: 8rem;
+}
+.room1 .house .bottom .right {
+  font-size: 1.2rem;
+  width: 18.7rem;
+  margin-top: 2.4rem;
+}
+.room1 .house .bottom .right h2 {
+  font-size: 1.8rem;
+}
+.room1 .house .bottom .right .N {
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+.room1 .house .bottom .right .N .n1 {
+  float: left;
+}
+.room1 .house .bottom .right .N .n2 {
+  float: right;
+  color: #ff8a00;
+}
+.room1 .house .bottom .right .red {
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.room1 .house .bottom .right .red .r1 {
+  float: left;
+}
+.room1 .house .bottom .right .red .r2 {
+  float: right;
+}
+.room1 .house .bottom .right .scool {
+  margin-top: 0.5rem;
+  color: #849aae;
+}
+.room1 .house .bottom .right .scool .s1 {
+  background-color: #f4f7f9;
+  border: 1px solid #eeeeee;
+}
+.room1 .house .bottom .right .scool .s2 {
+  background-color: #f4f7f9;
+  border: 1px solid #eeeeee;
+}
+.room1 .house .bottom .right .scool .s3 {
+  background-color: #f4f7f9;
+  border: 1px solid #eeeeee;
+}
+.room1 .house .reson {
+  margin-left: 1rem ;
+  padding-left: 1rem ;
+  font-size: 1.2rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  background-color: #f2f2f2;
+}
+.room1 .g {
+  text-align: center;
+  height: 5rem;
+  line-height: 5rem;
+  color: #999999;
+}
+footer {
+  width: 32rem;
+  height: 20.8rem;
+  color: #939494;
+  background-color: #2f3130;
+}
+footer .beijing {
+  font-size: 1.2rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #3e403f;
+  padding-left: 1.5rem;
+}
+footer ul {
+  overflow: hidden;
+}
+footer ul .apple {
+  width: 7.25rem;
+  margin-top: 1.5rem;
+  float: left;
+  margin-left: 2.7rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer ul .apple img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+footer ul .apple div {
+  margin-left: 1.8rem;
+}
+footer ul .apple:nth-of-type(2) {
+  float: left;
+  margin-left: 6rem;
+}
+footer .gs {
+  margin-top: 2.2rem;
+  text-align: center ;
+}
+footer .wl {
+  margin-top: 0.8rem;
+  text-align: center ;
+}

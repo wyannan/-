@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+header {
+  width: 32rem;
+  height: 4rem;
+  background-color: #ff8a00;
+}
+header img:first-of-type {
+  width: 9.8rem;
+  height: 2.9rem;
+  margin-left: 3.4rem;
+  margin-top: 0.5rem;
+}
+header img:nth-of-type(2) {
+  width: 2.2rem;
+  height: 2.9rem;
+  margin-left: 8.9rem;
+}
+header img:nth-of-type(3) {
+  width: 2.3rem;
+  height: 2.9rem;
+  margin-left: 2.1rem;
+}
+.banner {
+  width: 32rem;
+  height: 22.5rem;
+  background: url(../image/index/banner.png) no-repeat;
+  background-size: 32rem 22.5rem;
+}
+.banner input {
+  font-size: 1.4rem;
+  color: #999999;
+  border: none;
+  padding-left: 3rem;
+  margin-left: 1.6rem;
+  margin-top: 18.7rem;
+  width: 26rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-size: 1.5rem 1.5rem;
+  background: url(../image/index/seach.jpg) white no-repeat 0.5rem 0.5rem;
+}
+nav {
+  width: 32rem;
+  background-color: #ff8a00;
+}
+nav ul {
+  height: 11rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav ul li img {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.show {
+  margin-top: 1rem;
+}
+.show img {
+  width: 32rem;
+}
+.hot {
+  width: 32rem;
+  background-color: white;
+}
+.hot .top {
+  padding-left: 2.2rem;
+  color: white;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #ff8a00;
+}
+.hot ul li {
+  height: 14.1rem;
+  border-bottom: 1px solid red;
+}
+.hot ul li .bottom {
+  display: flex;
+}
+.hot ul li .bottom .left img {
+  padding: 3rem 1.2rem 2.2rem;
+  width: 8rem;
+  height: 8rem;
+}
+.hot ul li .bottom .right {
+  font-size: 1.2rem;
+  width: 18.7rem;
+  margin-top: 2.4rem;
+}
+.hot ul li .bottom .right h2 {
+  font-size: 1.8rem;
+}
+.hot ul li .bottom .right .N {
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+.hot ul li .bottom .right .N .n1 {
+  float: left;
+}
+.hot ul li .bottom .right .N .n2 {
+  float: right;
+  color: #ff8a00;
+}
+.hot ul li .bottom .right .red {
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.hot ul li .bottom .right .red .r1 {
+  float: left;
+}
+.hot ul li .bottom .right .red .r2 {
+  float: right;
+}
+.hot ul li .bottom .right .scool {
+  margin-top: 0.5rem;
+  color: #849aae;
+}
+.hot ul li .bottom .right .scool .s1 {
+  background-color: #f4f7f9;
+  border: 1px solid #eeeeee;
+}
+.hot ul li .bottom .right .scool .s2 {
+  background-color: #f4f7f9;
+  border: 1px solid #eeeeee;
+}
+.hot ul li .bottom .right .scool .s3 {
+  background-color: #f4f7f9;
+  border: 1px solid #eeeeee;
+}
+.hot ul li:last-of-type {
+  border-bottom: none;
+}
+.friend {
+  width: 32rem;
+  margin-top: 1rem;
+  background-color: white;
+}
+.friend .foucs {
+  font-size: 1.6rem;
+  height: 5.4rem;
+  overflow: hidden;
+  border-bottom: 1px solid #ff8a00;
+}
+.friend .foucs .f1 {
+  float: left;
+  color: #ff8a00;
+  padding-left: 4.4rem;
+  width: 11rem;
+  height: 5.3rem;
+  line-height: 5.3rem;
+}
+.friend .foucs .f2 {
+  float: left;
+  width: 16.5rem;
+  text-align: center;
+  height: 5.3rem;
+  line-height: 5.3rem;
+}
+.friend .second {
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+.friend .second li {
+  padding-top: 1rem;
+  float: left;
+  width: 50%;
+}
+.friend .second li a {
+  padding: 2rem ;
+}
+footer {
+  width: 32rem;
+  height: 20.8rem;
+  color: #939494;
+  background-color: #2f3130;
+}
+footer .beijing {
+  font-size: 1.2rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #3e403f;
+  padding-left: 1.5rem;
+}
+footer ul {
+  overflow: hidden;
+}
+footer ul .apple {
+  width: 7.25rem;
+  margin-top: 1.5rem;
+  float: left;
+  margin-left: 2.7rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer ul .apple img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+footer ul .apple div {
+  margin-left: 1.8rem;
+}
+footer ul .apple:nth-of-type(2) {
+  float: left;
+  margin-left: 6rem;
+}
+footer .gs {
+  margin-top: 2.2rem;
+  text-align: center ;
+}
+footer .wl {
+  margin-top: 0.8rem;
+  text-align: center ;
+}
+.nian {
+  position: fixed;
+  bottom: 0;
+  width: 32rem;
+  height: 5.5rem;
+}
+.nian ul {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.nian ul li {
+  float: left;
+  line-height: 3.5rem;
+  margin-left: 2rem;
+}
+.nian ul li img {
+  width: 2.5rem;
+  margin-left: 1rem;
+}
+.nian ul li button {
+  width: 11rem;
+  height: 3.5rem;
+  border: none;
+  color: #fff;
+  background-color: #ff8a00;
+  font-size: 1.4rem;
+}
+.nian ul li:nth-of-type(2) {
+  color: #fff;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  line-height: 1.3rem;
+}
+.nian ul li:nth-of-type(2) p:nth-of-type(1) {
+  font-size: 1.4rem;
+}
+.nian ul li:nth-of-type(3) {
+  float: right;
+}
+.nian ul #x {
+  position: absolute;
+  top: 0;
+  left: 0.3rem;
+  color: #ccc;
+  width: 1rem;
+  height: 1rem;
+}
